@@ -1,4 +1,4 @@
-public class Vendedor extends Empregado implements Salario{
+public class Vendedor extends Empregado{
     private double totalDeVendas;
     private double comissao;
 
@@ -7,11 +7,6 @@ public class Vendedor extends Empregado implements Salario{
 
         this.totalDeVendas = totalDeVendas;
         this.comissao = comissao;
-    }
-
-    public double calcularSalario(){
-        // totalDeVendas * comissao
-        return 1.1;
     }
 
 }
