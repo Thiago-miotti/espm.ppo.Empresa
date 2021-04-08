@@ -1,4 +1,4 @@
-public class Gerente extends Empregado {
+public class Gerente extends Empregado implements Bonus {
     private double salario;
     private double bonus;
 
@@ -7,5 +7,9 @@ public class Gerente extends Empregado {
 
         this.salario = salario;
         this.bonus = bonus;
+    }
+
+    public double calcularBonus(){
+        return this.salario * this.bonus;
     }
 }

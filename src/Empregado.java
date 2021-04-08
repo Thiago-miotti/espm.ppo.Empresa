@@ -6,4 +6,9 @@ public class Empregado extends Pessoa {
         this.matricula = matricula;
     }
 
+    public String getMatricula() {
+        return matricula;
+    }
 }
+
+

@@ -4,3 +4,7 @@
 .idea
 ExercicioGeral.ppo.iml
 out
+/bin/
+.project
+.classpath
+espm.ppo.Empresa.iml
